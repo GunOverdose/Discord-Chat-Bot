@@ -80,5 +80,5 @@ async def on_message(message, timeout=10,):
     if message.content.startswith("!change"):
         await client.change_presence(game=discord.Game(name='on play.shotbow.net'))
     
-client.run("MzQyMDQxOTcxMzI3NzYyNDQz.DGJ5kA.QOS8K3wAlXGn1EGmiYeeHM9XyTQ")
+client.run("token")
 
