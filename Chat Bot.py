@@ -92,4 +92,4 @@ async def on_message(message, timeout=10,):
             await client.delete_message(message)
             await client.send_message(message.channel, "Please do not use vulgar language {} ! Excessive use could result in a ban.".format(message.author))
        
-client.run("MzQyMDQxOTcxMzI3NzYyNDQz.DGJ5kA.QOS8K3wAlXGn1EGmiYeeHM9XyTQ")
+client.run("token")
